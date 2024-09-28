@@ -1,0 +1,200 @@
+:root{
+    --primary: black;
+    --secondary: rgb(2, 111, 2);
+    --creamy: #f5f1e5;
+    --gray: gray;
+    --white: #ffffff;
+}
+
+body{
+    background-color:var(--creamy);
+    font-family: raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wrapper{
+    display: grid;
+    justify-items: center;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 20px;
+}
+.title{
+    width:  500px;
+}
+.imgUp{
+    width: 950px;
+    height: 400px;
+}
+.links{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    gap: 20rem;
+}
+.links a{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius:5px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+}
+
+.links a:hover{
+    background-color: var(--secondary);
+    color: var(--creamy);
+}
+
+.directions{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top:10px;
+    gap: 14rem;
+}
+
+.directions a{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 1.8;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 28rem;
+}
+
+.logos a{
+    width: 10px;
+}
+
+.logotext{
+    display: flex;
+    gap: 400px;
+}
+
+.logotext a{
+    text-decoration: none;
+}
+.logotext h3{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+.direct{
+    color: var(--gray);
+}
+.eat{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: var(--primary);
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+.story{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+.ourstory{
+    display: block;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.ourstory a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.partners{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+.trophys{
+    display: grid;
+}
+.trophy-container{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+.trophys h3{
+    color: var(--secondary);
+    text-align: center;
+    font-size: 16px;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--secondary);
+    color: var(--white);
+    margin-left: 180px;
+    font-weight: bolder;
+}
+.videoo{
+    display: grid;
+    text-align: left;
+    line-height: 1.8;
+    font-family: sans-serif, ;
+}
+.images1y2{
+    display: flex;
+    gap: 2rem;
+}
+.prefooter{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px 0;
+    gap: 20px;
+}
+.footerlink{
+    text-align: center;
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.footerlink a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.video{
+    margin-top: 50px;
+}
+
+.footimg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; 
+    justify-items: center; 
+    margin-top: 100px;
+}
+
+
+
+
